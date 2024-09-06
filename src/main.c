@@ -50,5 +50,6 @@ int main()
     fgets(str1, sizeof(str), stdin);
     str1[strlen(str1)-1] = '\0';
     decoder(str1);
+    printf("\n");
     return 0;
 }
